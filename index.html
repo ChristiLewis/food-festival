@@ -9,11 +9,8 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--ADD LAZY LOADING = DEFER-->
-  <script src='assets/js/vendor/jQuery.js' defer></script>
-  <script src='assets/js/vendor/bootstrap.js' defer></script>
-  <!--REPLACE JS FILE WITH MINIFIED FILE LINK-->
-  <script src='./dist/script.min.js' defer></script>
+  <!--ADD LAZY LOADING = DEFER + WHEN USING WEBPACK REPLACE MINIFIED JS WITH MAIN.BUNDLE.JS-->
+  <script src="./dist/main.bundle.js" defer ></script>
 
 </head>
 
