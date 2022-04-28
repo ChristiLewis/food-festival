@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = {
     entry: {
         app: "./assets/js/script.js",
-        events: ".assets/js/events.js",
+        events: "./assets/js/events.js",
         schedule: "./assets/js/schedule.js",
         tickets: "./assets/js/tickets.js"
     },
