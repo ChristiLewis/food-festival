@@ -41,6 +41,7 @@
     "has": "^1.0.3",
     "has-flag": "^4.0.0",
     "human-signals": "^2.1.0",
+    "image-webpack-loader": "^8.1.0",
     "import-local": "^3.1.0",
     "interpret": "^2.2.0",
     "is-core-module": "^2.9.0",
@@ -109,6 +110,7 @@
     "wildcard": "^2.0.0"
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.72.0",
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2"
