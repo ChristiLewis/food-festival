@@ -119,9 +119,9 @@ $(document).ready(function () {
             )
         )
 
-        pageEl.appendChil(containerEl1);
-        pageEl.appendChil(containerEl2);
-        pageEl.appendChil(containerEl3);
+        pageEl.appendChild(containerEl1);
+        pageEl.appendChild(containerEl2);
+        pageEl.appendChild(containerEl3);
     }
 
 });

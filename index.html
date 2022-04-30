@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--LINK TO THE MANIFEST TO BE RECOGNIZED AS A PWA-->
+  <link rel="manifest" href="dist/manifest.json">
   <!--ADD LAZY LOADING = DEFER + WHEN USING WEBPACK REPLACE MINIFIED JS WITH MAIN.BUNDLE.JS SPLIT REPLACE MAIN W/ APP-->
   <script src="./dist/app.bundle.js" defer></script>
-
 </head>
 
 <body>
@@ -173,11 +174,11 @@
   </footer>
 </body>
 <script>
-  (function(){
-    if("serviceWorker" in navigator) {
+  (function () {
+    if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register("./service-worker.js")
-      .then(() => console.log("Service Worker registered successfully."))
-      .catch(error => console.log("Service Worker registration failed:", error));
+        .then(() => console.log("Service Worker registered successfully."))
+        .catch(error => console.log("Service Worker registration failed:", error));
     }
   })();
 </script>
