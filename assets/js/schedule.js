@@ -85,7 +85,7 @@ $(document).ready(function () {
             },
         ]
 
-
+        const pageEl = document.querySelector("#page");
 
         function createCards(events) {
             const cards = events.map((event) => (
